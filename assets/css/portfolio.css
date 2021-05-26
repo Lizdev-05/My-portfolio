@@ -1,0 +1,147 @@
+/*Reset Defaul*/
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(33, 29, 54);
+}
+
+
+main{
+    display: flex;
+    padding: 100px 200px;
+    transition: o.5s ease;
+}
+.info{
+    width: 50%;
+}
+
+.info  button {
+    font-size: 40px;
+    font-weight: 700px;
+    background-color: aquamarine;
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 54px;
+    font-weight: 700px;
+    text-decoration: none;
+  
+}
+
+
+.info h1{
+    font-size: 35px;
+    font-weight: 700px;
+    line-height: 1.5;
+    color: white;
+}
+
+.info p{
+    font-size: 35px;
+    color: white;
+
+}
+.my-image{
+    width: 50%;
+
+}
+
+.my-image img{
+  width: 300px;
+  height: 300px;
+}
+
+.mail img{
+    width: 25px;
+    height: 20px;
+}
+.mail p{
+    font-size: 16px;
+}
+
+.mail{
+   display: flex;
+   margin-top: 36px;
+}
+
+.phone img{
+    
+        width: 25px;
+        height: 20px;
+
+}
+
+.phone p{
+    font-size: 16px;
+}
+
+.phone{
+    display: flex;
+     margin-top: 8px;
+ }
+
+ .location img{
+    width: 25px;
+    height: 20px;
+    
+
+ }
+
+ .location p{
+     font-size: 16px;
+ }
+
+ .location{
+    display: flex;
+    margin-top: 8px;
+    
+ }
+
+
+/* Media Query*/
+
+@media (max-width: 1200px){
+   
+
+    main{
+        display: flex;
+        padding: 100px 20px;
+    }
+    .info{
+        width: 60%;
+    }
+    .my-image{
+        width: 40%;
+    
+    }
+
+   
+
+}
+
+   @media (max-width: 800px){
+    main{
+        flex-direction: column-reverse;
+   }
+      
+   .info{
+    width: 100%;
+}
+.my-image{
+    width: 100%;
+    margin-top: 50px;
+
+}
+.info h1{
+    font-size: 40px;
+    font-weight: 600px;
+    line-height: 1.5;
+    color: white;
+}
+
+}
